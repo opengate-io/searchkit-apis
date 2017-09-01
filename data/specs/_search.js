@@ -19,7 +19,7 @@ module.exports = {
             var options = {
                 url: "http://demo.searchkit.co/api/movies/_search",
                 method: "POST",
-                body: req.body
+                json: req.body
             };
             request(options, function (error, response, body) {
                 if (!error && response.statusCode == 200) {
