@@ -4,10 +4,10 @@
 node_modules
 
 # testing
-/coverage
+coverage
 
 # production
-/build
+build
 
 public/static
 public/asset-manifest.json
