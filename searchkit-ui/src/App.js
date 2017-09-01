@@ -10,8 +10,7 @@ import { SearchkitManager,SearchkitProvider,
   ActionBar, ActionBarRow, SideBar } from 'searchkit'
 import './index.css'
 
-const host = "http://demo.searchkit.co/api/movies"
-//const host = "https://SearchKits:vnvkviwh8s9nbwucsnra2rf4a0swscej@ori-eu-west-1.searchly.com"
+const host = "/specs"
 const searchkit = new SearchkitManager(host)
 
 const MovieHitsGridItem = (props)=> {
