@@ -1,5 +1,5 @@
-'use strict';
-var Mockgen = require('../mockgen.js');
+"use strict";
+var Mockgen = require("../mockgen.js");
 /**
  * Operations on /specs/_search
  */
@@ -19,9 +19,9 @@ module.exports = {
              * Replace this by actual data for the api.
              */
             Mockgen().responses({
-                path: '/specs/_search',
-                operation: 'post',
-                response: '200'
+                path: "/specs/_search",
+                operation: "post",
+                response: "200"
             }, callback);
         },
         default: function (req, res, callback) {
@@ -30,9 +30,9 @@ module.exports = {
              * Replace this by actual data for the api.
              */
             Mockgen().responses({
-                path: '/specs/_search',
-                operation: 'post',
-                response: 'default'
+                path: "/specs/_search",
+                operation: "post",
+                response: "default"
             }, callback);
         }
     }

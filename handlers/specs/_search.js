@@ -1,5 +1,5 @@
-'use strict';
-var dataProvider = require('../../data/specs/_search.js');
+"use strict";
+var dataProvider = require("../../data/specs/_search.js");
 /**
  * Operations on /specs/_search
  */
@@ -17,7 +17,7 @@ module.exports = {
          * For response `default` status 200 is used.
          */
         var status = 200;
-        var provider = dataProvider['post']['200'];
+        var provider = dataProvider["post"]["200"];
         provider(req, res, function (err, data) {
             if (err) {
                 next(err);
